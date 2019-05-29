@@ -75,3 +75,29 @@ This repo does not have an end-to-end running framework. We build different comp
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
+
+
+## Update
+Python 3.7, macos mojave 10.14.5, virtualenv
+
+Package          Version
+---------------- -------
+cycler           0.10.0 
+joblib           0.13.2 
+kiwisolver       1.1.0  
+matplotlib       3.1.0  
+numpy            1.16.4 
+pandas           0.24.2 
+patsy            0.5.1  
+pip              19.1.1 
+pyparsing        2.4.0  
+python-dateutil  2.8.0  
+pytz             2019.1 
+scikit-learn     0.21.2 
+scipy            1.3.0  
+setuptools       41.0.1 
+six              1.12.0 
+sortedcontainers 2.1.0  
+statsmodels      0.9.0  
+torch            1.1.0  
+wheel            0.33.4 
