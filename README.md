@@ -101,3 +101,9 @@ sortedcontainers 2.1.0
 statsmodels      0.9.0  
 torch            1.1.0  
 wheel            0.33.4 
+
+
+statsmodels 0.9.0 tem problemas com a scipy em algumas bibliotecas utilizadas, que ficaram deprecated a partir da versao 1.0.0.
+em geral, as bibliotecas em scipy.misc mudam para scipy.special, exemplo: factorial
+ver: https://github.com/statsmodels/statsmodels/
+e https://docs.scipy.org/doc/scipy-1.2.1/reference/generated/scipy.misc.factorial.html

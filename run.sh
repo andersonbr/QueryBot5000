@@ -1,8 +1,11 @@
 #!/bin/bash
 
 # Copy and decompress the sample data file
-#curl -O http://www.cs.cmu.edu/~malin199/data/tiramisu-sample/tiramisu-sample.tar.gz
-#tar -xvzf tiramisu-sample.tar.gz
+wget -c http://www.cs.cmu.edu/~malin199/data/tiramisu-sample/tiramisu-sample.tar.gz
+# mirror: https://ufc.andersoncalixto.com.br/files/tiramisu-sample.tar.gz
+if [ ! -d "./tiramisu-sample" ]; then
+  tar -xvzf tiramisu-sample.tar.gz
+fi
 
 # Generate and combine query templates
 ./pre-processor/templatizer.py tiramisu --dir tiramisu-sample/ --output templates
